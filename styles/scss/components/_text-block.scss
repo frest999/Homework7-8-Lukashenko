@@ -1,0 +1,98 @@
+.text-block{
+  line-height: 1.8;
+  font-family: $brand-font;
+  &-big{
+    font-size: $big-text-size;
+  }
+  &-ever {
+    font-size: $ever-theme;
+  }
+  &-card{
+  font-size: $card-text-size;
+  text-align: left;
+  }
+  &-blogpost{
+    font-size: $blog-post-text;
+  }
+  &-small{
+    font-size: $small-text;
+    line-height: 1.2;
+  }
+  &-normal{
+    font-size: $normal-size;
+  }
+}
+
+.text-icon{
+  &:before{
+    font-family: FontAwesome;
+    margin-right: 5px;
+  }
+  &-comments {
+    &:before {
+      content: "\f086";
+    }
+  }
+}
+
+.team-info-text{
+  font-size: $team-info-size;
+  font-family: $brand-font;
+  line-height: 2;
+}
+
+.footer-text{
+  line-height: 1.8;
+  font-family: $brand-font;
+  font-size: $footer-text-size;
+  &:before{
+    font-family: FontAwesome;
+    margin-right: 10px;
+    color: $brand-color;
+    font-size: 1rem;
+    display: block;
+    float: left;
+    height: 30px;
+  }
+  &-address{
+    &:before{
+      content: "\f024";
+    }
+  }
+  &-phone{
+    &:before{
+      content: "\f095";
+    }
+  }
+  &-email{
+    &:before{
+      content: "\f0e0";
+    }
+  }
+  &-twitter{
+    &:before{
+      content: "\f099";
+      height: 100px;
+    }
+  }
+}
+
+.likes-text{
+  font-size: $normal-size;
+  &:before{
+    font-family: FontAwesome;
+    content: "\f004";
+    margin-right: 10px;
+    color: #c4c4c4;
+    font-size: 1rem;
+    display: block;
+    float: left;
+    height: 30px;
+  }
+  &-descrpt{
+    &:before{
+      content: "\f046";
+      color: #ebad29;
+    }
+  }
+}

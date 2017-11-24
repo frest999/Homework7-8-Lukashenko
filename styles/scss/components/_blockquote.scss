@@ -1,0 +1,48 @@
+.blockquote{
+  width: 620px;
+  max-width: 100%;
+  &-text{
+    font-size: $big-blockquote;
+    font-family: $brand-font;
+    line-height: 1.8;
+    text-align: center;
+  }
+  &-author{
+    font-size: $big-blockquote - .625rem;
+    font-family: $blockquote-font;
+  }
+  &:before{
+    content: '\201D';
+    font-size: 8rem;
+    display: block;
+    color: $brand-color;
+    text-align: center;
+    font-family: Georgia;
+    line-height: .4;
+  }
+}
+
+.quote-post{
+  color: $bpost-quote-color;
+  font-family: $blockquote-font;
+  line-height: 1.5;
+  margin-left: 30px;
+  &:before{
+    min-height: 120px;
+    content: "";
+    width: 5px;
+    background-color: #ededed;
+    line-height: 1.5;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    margin-top: 8px;
+  }
+  p{
+    font-size: $bpost-quote-size;
+  }
+  span{
+    font-size: $blog-post-text;
+    font-style: italic;
+  }
+}

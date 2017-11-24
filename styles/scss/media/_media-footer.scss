@@ -1,0 +1,67 @@
+@media (max-width: 915px){
+  .footer-col{
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px){
+  .footer-col{
+    width: 100%;
+    h3{
+      margin-bottom: 20px;
+    }
+  }
+  .popular-post{
+    margin-bottom: 20px;
+  }
+  .latest-tweets{
+    .margin-bottom-30{
+      margin-bottom: 15px;
+    }
+  }
+  .main-btn{
+    min-width: 50px;
+    font-size: $btn-size-text - .25rem;
+    padding: 5px 8px;
+    &-top{
+      &:after{
+        font-size: .75rem;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 380px){
+  .bottom-footer{
+    @include flexbox;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-signup{
+    margin-bottom: 30px;
+  }
+  .get-touch-block{
+    @include flexbox;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    img{
+      margin-bottom: 20px;
+    }
+  }
+  .top-footer{
+    h3{
+      text-align: center;
+    }
+  }
+  .fa-soc-media{
+    width: 30px;
+    height: 30px;
+    font-size: .9rem;
+  }
+  .fa-facebook, .fa-pinterest{
+    padding: 0;
+  }
+}

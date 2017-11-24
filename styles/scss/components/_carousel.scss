@@ -1,0 +1,121 @@
+.carousel-welcome{
+  height: calc(95vh - 144px);
+  background-size: cover;
+}
+
+.welcome-item{
+  height: calc(100vh - 144px);
+
+
+  &-first{
+    @include background(linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%),
+            url("../../img/bg-slide-1.jpg") no-repeat 50% 0);
+    background-size: cover;
+  }
+  &-second{
+    @include background(linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%),
+            url("../../img/bg-slide-2.jpg") no-repeat 50% 0);
+    background-size: cover;
+  }
+  &-third{
+    @include background(linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%),
+            url("../../img/bg-slide-3.jpg") no-repeat 50% 0);
+    background-size: cover;
+  }
+  &-fourth{
+    @include background(linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%),
+            url("../../img/bg-slide-4.jpg") no-repeat 50% 0);
+    background-size: cover;
+  }
+  &-fifth{
+    @include background(linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%),
+            url("../../img/bg-slide-5.jpg") no-repeat 50% 0);
+    background-size: cover;
+  }
+}
+
+.welcome-prev, .welcome-next{
+  display: none;
+}
+
+.carousel-indicators{
+  li{
+    background-color: $light-text;
+  }
+  .active{
+    background-color: $brand-color;
+  }
+}
+
+
+.latest-next, .latest-prev{
+  align-items: flex-end;
+}
+
+.latest-prev{
+  left: 70px;
+}
+.latest-next{
+  right: 70px;
+}
+
+.carousel-latest{
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.latest-icon{
+  &:before{
+  font-family: FontAwesome;
+  display: block;
+  color: $brand-color;
+  font-size: 1.2rem;
+  }
+  &-left {
+    &:before {
+      content: "\f053";
+    }
+  }
+  &-right{
+    &:before {
+      content: "\f054";
+    }
+  }
+}
+
+.project-icon{
+  &:before{
+    font-family: FontAwesome;
+    display: block;
+    color: #ebad29;
+    background-color: #edeeee;
+    font-size: 1.2rem;
+    padding: 10px;
+    vertical-align: middle;
+    opacity: 0.8;
+    }
+  &-left {
+    &:before {
+      content: "\f053";
+    }
+  }
+  &-right{
+    &:before {
+      content: "\f054";
+    }
+  }
+}
+
+.arrows{
+  display: block;
+  margin-bottom: 100px;
+
+  a{
+    position: relative;
+    float: left;
+    padding: 20px;
+    padding-top: 0;
+
+  }
+}
+

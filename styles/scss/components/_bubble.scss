@@ -1,0 +1,36 @@
+.bubble {
+  @include box-sizing(content-box);
+  width: 55px;
+  display: block;
+  height: 30px;
+  position: relative;
+  border: 1px solid #c4c4c4;
+  @include border-radius(5px);
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background-color: transparent;
+  text-align: center;
+  line-height: 2;
+  font-weight: bold;
+}
+
+
+.bubble::before {
+  @include box-sizing(content-box);
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: "";
+  top: 7px;
+  right: 100%;
+  border: 7px solid rgba(0,0,0,0);
+  border-right: 10px solid #c3c3c3;
+  border-left: 0 solid;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  @include text-shadow(none);
+}

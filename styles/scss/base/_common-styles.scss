@@ -1,0 +1,33 @@
+*{
+  outline: none!important;
+  box-shadow: none;
+}
+
+a,p{
+  font-family: "Oxygen";
+}
+
+h3,h4,h5{
+  line-height: 1.4;
+  font-family: $brand-font;
+}
+
+.content{
+  width: $content-width;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.blog-post-content{
+  width: $blog-post-content;
+  max-width: 100%;
+}
+
+.blog-aside-content{
+  width: 210px;
+}
+
+.big-photo-info{
+  width: 210px;
+}

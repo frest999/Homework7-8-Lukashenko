@@ -1,0 +1,38 @@
+.nav-item {
+    min-width: 100px;
+    text-align: center;
+    a {
+      color: $main-nav-color;
+      text-transform: uppercase;
+      font-size: $main-nav-size;
+      font-weight: 600;
+      line-height: 2;
+    }
+}
+
+.navbar {
+  padding: 0;
+  margin-bottom: 25px;
+  &-toggler {
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1;
+    background: 0 0;
+    border: 0;
+    border-radius: .25rem;
+  }
+}
+
+@each $col in $palette-list {
+  $i: $i+1;
+  .nav-item:nth-last-child(#{$i}) {
+   &:before{
+     width: 100%;
+     height: 10px;
+     background-color: $col;
+     content: '';
+     display: block;
+     margin-bottom: 30px;
+   }
+  }
+}

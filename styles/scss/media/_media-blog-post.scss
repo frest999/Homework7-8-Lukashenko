@@ -1,0 +1,58 @@
+@media (max-width: 940px){
+  .blog-post-content{
+    width: $content-width;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .big-img-blog{
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  aside{
+   display: none;
+  }
+  .add-comment-form{
+    textarea{
+      width: 700px;
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 770px){
+  .comm-form{
+    flex-direction: column;
+  }
+  .add-comment-form{
+    textarea{
+      width: 400px;
+    }
+    .main-btn-add{
+      align-self: flex-start;
+  }
+  }
+}
+
+@media (max-width: 720px) {
+  .blog-sm-img{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    li{
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .tags-list {
+    flex-direction: column;
+  }
+  .soc-media-blog {
+   li{
+     &:last-child{
+       display: none;
+     }
+   }
+  }
+}

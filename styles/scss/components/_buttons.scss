@@ -1,0 +1,77 @@
+.main-btn{
+  min-width: 135px;
+  background-color: transparent;
+  border: 2px solid $brand-color;
+  color: $brand-color;
+  font-family: $brand-font;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: $btn-size-text;
+  cursor: pointer;
+  &:hover{
+    background-color: $brand-color;
+    color: $light-text;
+  }
+  &-arrow{
+    border: 2px solid $light-text;
+    color: $light-text;
+    width: 170px;
+    max-width: 100%;
+    &:after{
+      font-family: FontAwesome;
+      content: "\f105";
+      margin-left: 20px;
+      font-size: 1rem;
+    }
+    &:hover{
+      background-color: $light-text;
+      color: $brand-color;
+    }
+  }
+  &-project{
+    color: #ebad29;
+    border: 2px solid #ebad29;
+    &:hover{
+      color: $light-text;
+      background-color: #ebad29;
+    }
+  }
+  &-top{
+    color: $light-text;
+    text-transform: none;
+    font-weight: normal;
+    &:after{
+      font-family: FontAwesome;
+      content: "\f106";
+      margin-left: 20px;
+      font-size: 1.5rem;
+      vertical-align: middle;
+      color: $brand-color;
+    }
+    &:hover{
+      background-color: $light-text;
+      color: #000;
+    }
+  }
+  &-add{
+    background-color: $light-text;
+  }
+}
+
+.btn-show-more{
+  color: $brand-color;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: $brand-font;
+  font-size: $small-text;
+  &:after{
+    font-family: FontAwesome;
+    content: "\f0d7";
+    display: block;
+  }
+  &:hover{
+    color: #000;
+  }
+}

@@ -1,0 +1,49 @@
+.fa-soc-media{
+  color: $light-text;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-right: 15px;
+  &:hover{
+    background-color: $brand-color;
+    color: $light-text;
+    text-decoration: none;
+  }
+}
+  .soc-media-30{
+    width: 30px;
+    height: 30px;
+    font-size: 1.3rem;
+  }
+.fa-facebook{
+  background-color: $facebook;
+  padding: 10px 20px;
+  &-sm{
+    padding: 5px 10px;
+  }
+}
+.fa-twitter{
+  background-color: $twitter;
+}
+
+.fa-youtube{
+  background-color: $youtube;
+}
+
+.fa-instagram{
+  background-color: $instagram;
+}
+
+.fa-pinterest{
+  background-color: $pinterest;
+  padding: 10px 18px;
+}
+
+.fa-envelope, .fa-print{
+  background-color: $envelope-print;
+}
+
+.fa-plus{
+  background-color: $soc-plus;
+}

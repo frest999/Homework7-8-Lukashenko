@@ -1,0 +1,37 @@
+.bg-black{
+  background-color: $bg-black;
+}
+
+.bottom-header{
+  background-color: $bg-main-nav;
+}
+
+.latest-work-section{
+  background-color: $bg-latest-works;
+}
+.comments-section{
+  background-color: $bg-comments-section;
+}
+.ever-theme{
+  background-color: $brand-color;
+}
+
+.blockquote-section{
+  background-color: $bg-latest-works;
+}
+
+.expirience-section{
+  background-color: $brand-color;
+}
+
+.footer-bg{
+  background-color: $bg-footer;
+}
+
+.blog-grid-section{
+  @include background(linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%),
+          url("../../img/grid-section-bg.jpg") no-repeat 50% 0);
+  height: 300px;
+  background-size: cover;
+  background-position: bottom center;
+}

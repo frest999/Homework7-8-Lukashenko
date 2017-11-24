@@ -1,0 +1,18 @@
+.title{
+    font-family: $brand-font;
+    font-size: $title-size;
+  &-card{
+    font-size: $card-title-size;
+    font-weight: 600;
+  }
+  &-expirience{
+    font-size: $experience-title;
+  }
+  &-footer{
+    font-size: $footer-title-size;
+  }
+  &-blog-post{
+    font-size: $blog-post-title;
+    font-weight: bold;
+  }
+}

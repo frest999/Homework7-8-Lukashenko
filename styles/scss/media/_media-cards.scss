@@ -1,0 +1,45 @@
+@media (max-width: 970px){
+  .cards-list,.blog-list-card,.team-list{
+    li{
+      margin-bottom: 30px;
+    }
+    justify-content: center;
+  }
+}
+
+@media (max-width: 940px){
+  .features-card{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 710px){
+  .cards-list, .blog-list-card, .team-list{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    li{
+      margin: 0;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 490px){
+  .features-card{
+   li{
+     width: 80%;
+   }
+    .text-block-card{
+      font-size: .8rem;
+    }
+  }
+  .title-card{
+    font-size: .9rem;
+  }
+}

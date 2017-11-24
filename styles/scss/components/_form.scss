@@ -1,0 +1,27 @@
+.add-comment-form{
+  span{
+    font-weight: bold;
+  }
+  input{
+    background-color: #fff;
+    border: none;
+    border-top: 1px solid #c4c4c4;
+    width: 220px;
+    height: 35px;
+  }
+  textarea{
+    background-color: #fff;
+    border: none;
+    border-top: 1px solid #c4c4c4;
+    max-width: 100%;
+    width: $blog-post-content;
+    height: 115px;
+    resize: none;
+  }
+  .main-btn-add{
+    align-self: flex-end;
+  }
+}
+.add-btn-block{
+  width: 100%;
+}

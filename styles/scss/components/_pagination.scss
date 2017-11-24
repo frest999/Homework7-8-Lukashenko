@@ -1,0 +1,20 @@
+.page-link{
+  border: none;
+  color: $brand-color;
+  font-size: $pagination-size;
+  font-weight: bold;
+  padding: 10px 15px;
+  &:hover{
+    border-radius: 0;
+    color: #000;
+  }
+  &:visited{
+    color: $blog-visited;
+  }
+}
+.page-item:first-child .page-link{
+  border-radius: 0;
+}
+.page-item:last-child .page-link{
+  border-radius: 0;
+}

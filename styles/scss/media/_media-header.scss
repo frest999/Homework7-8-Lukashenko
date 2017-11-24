@@ -1,0 +1,11 @@
+@media (max-width: 420px ){
+  .top-header{
+    flex-direction: column;
+  }
+  .search-block{
+    input{
+    }
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}

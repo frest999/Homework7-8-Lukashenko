@@ -1,0 +1,18 @@
+@media (max-width: 1000px) {
+  .progres-block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle-block {
+      flex-direction: column;
+      &:after{
+        transform: rotate(90deg);
+        padding: 20px;
+        margin-left: 90px;
+      }
+  }
+  .circle-items{
+    flex-direction: column;
+  }
+}

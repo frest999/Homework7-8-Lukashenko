@@ -1,0 +1,40 @@
+.grid-links-block{
+  li{
+    margin-right: 30px;
+  }
+}
+
+.icon-grids {
+  &:hover{
+    text-decoration: none;
+    color: $brand-color;
+  }
+  &:before {
+    font-family: FontAwesome;
+    margin-right: 10px;
+    background-color: $grids-icon-bg;
+    color: $grids-icon-color;
+    padding: 3px 5px;
+    font-size: .8rem;
+    @include border-radius(50%);
+  }
+  &-user {
+    &:before {
+      content: "\f007";
+    }
+  }
+  &-time{
+    &:before{
+    content: "\f017";
+    }
+  }
+  &-comment {
+    &:before {
+      content: "\f10d";
+    }
+  }
+}
+
+.grids-header-info{
+  width: 100%;
+}

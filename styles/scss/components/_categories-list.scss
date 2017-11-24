@@ -1,0 +1,47 @@
+.categories-list{
+  li{
+    padding: 15px 0;
+    border-bottom: 1px solid #edeeee;
+    &:last-child{
+      border-bottom: none;
+    }
+    a{
+      &:hover{
+        text-decoration: none;
+        color: #000;
+      }
+    }
+    h4{
+      &:before{
+        font-family: FontAwesome;
+        color: #c2c2c2;
+        font-size: 1.2rem;
+        content: "\f10d";
+        margin-right: 15px;
+        display: block;
+        float: left;
+        height: 75px;
+      }
+    }
+    &-bookmarks{
+      display: flex;
+      align-items: baseline;
+    }
+  }
+}
+
+.icon-bookmarks{
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotate(-90deg);
+  transform:rotate(-90deg);
+  float: left;
+  margin-right: 15px;
+  &:before{
+    font-family: FontAwesome;
+    color: #c2c2c2;
+    font-size: 1.2rem;
+    content: "\f097";
+  }
+
+  }
